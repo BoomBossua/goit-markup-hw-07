@@ -1,0 +1,17 @@
+.logo-header {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: $letter-spacing-03;
+  color: $text-logo-1;
+
+  &__color {
+    color: $text-logo-2;
+  }
+}
+
+.header-nav__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}

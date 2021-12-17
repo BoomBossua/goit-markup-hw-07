@@ -1,0 +1,85 @@
+.footer-section {
+  background-color: $bg-color-5;
+  padding: 60px 0;
+}
+
+.footer {
+  display: flex;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: $letter-spacing-03;
+  color: $text-logo-3;
+
+  display: block;
+
+  &__color {
+    color: $text-color-3;
+  }
+}
+.contact-footer__logo-footer {
+  margin-bottom: 20px;
+}
+
+.footer-address {
+  margin-right: 70px;
+
+  &__item {
+    margin-bottom: 9px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: $letter-spacing-03;
+    color: $text-color-5;
+    margin-top: 100px;
+    font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: $text-color-3;
+    }
+    &:focus {
+      color: red;
+    }
+  }
+  &__mail {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: $letter-spacing-03;
+    color: $text-color-4;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: $text-color-3;
+    }
+    &:focus {
+      color: red;
+    }
+  }
+
+  &__tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: $letter-spacing-03;
+    color: $text-color-4;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: $text-color-3;
+    }
+    &:focus {
+      color: red;
+    }
+  }
+}

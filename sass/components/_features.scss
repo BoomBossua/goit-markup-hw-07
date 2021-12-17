@@ -1,0 +1,45 @@
+.features-section {
+  padding: 94px 0;
+  padding-bottom: 0;
+}
+
+.card-features {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__item {
+    width: calc(100% / 4 - 30px);
+    margin-left: 30px;
+    display: block;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.42;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing-03;
+    color: $main-text-color;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: $letter-spacing-03;
+    color: $text-color-2;
+  }
+}
+
+.icon-features {
+  display: flex;
+  padding: 25px 100px;
+  align-items: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.card-features__item:nth-child(1) {
+  margin-left: 0;
+}
